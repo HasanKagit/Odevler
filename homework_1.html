@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>HOME WORK </title>
+</head>
+
+<script>
+function Add()
+{
+   
+    dizi.push(nm.value);
+    dizi.push(mt.value);
+    dizi.push(fn.value);
+}
+
+
+function avg()
+{
+
+    var maxi=0;
+    let row = "<th></th>";
+    row += "<th>"+"Name"+"</th>";
+    row += "<th>"+"Average"+"</th>";
+    let text = "<tr>"+row+"</tr>";
+
+    for (var i = 0; i <=dizi.length-1; i=i+3) {
+        row = "<th>"+"</th>";
+       row +="<td>"+dizi[i]+"</td>";
+       var ort = (Number(dizi[i+1])+Number(dizi[i+2]))/2;
+       
+       if (ort>=maxi) {
+        maxi=ort;
+        max_dizi[0]=dizi[i];
+        max_dizi[1]=ort;
+       }
+       row +="<td>"+ort+"</td>";
+       text += "<tr>"+row+"</tr>";
+    }
+    tablo1.innerHTML = text;
+}
+
+function max_avg()
+{
+      let row = "<th></th>";
+    row += "<th>"+"Name"+"</th>";
+    row += "<th>"+"Max"+"</th>";
+    let text = "<tr>"+row+"</tr>";
+    
+        row = "<th>"+"</th>";
+        row +="<td>"+max_dizi[0]+"</td>";
+        row +="<td>"+max_dizi[1]+"</td>";
+        text += "<tr>"+row+"</tr>";
+    tablo2.innerHTML = text;
+}
+
+function makeRows(){
+  
+let row = "<th></th>";
+    row += "<th>"+"Name"+"</th>";
+    row += "<th>"+"Midterm"+"</th>";
+    row += "<th>"+"Final"+"</th>";
+    let text = "<tr>"+row+"</tr>";
+    
+    for (var i = 0; i<= dizi.length-1; i=i+3) {
+         
+
+       row = "<th>"+"</th>";
+       row +="<td>"+dizi[i]+"</td>";
+       row +="<td>"+dizi[i+1]+"</td>";
+       row +="<td>"+dizi[i+2]+"</td>";
+       text += "<tr>"+row+"</tr>";
+       }
+   tablo.innerHTML = text;
+}
+
+
+function yazdir()
+{
+    
+   makeRows();
+    
+}
+</script>
+
+<body>
+<h2 id=title></h2>
+
+
+<p>
+Name = <input type=text id=nm    style="width:99px"> &emsp; <br>
+Midterm = <input type=number   id=mt  style="width:99px"> <br>
+Final = <input type=number   id=fn  style="width:99px"> <br>
+</p><p>
+<input type=button value="Add"  onClick="Add()">
+<input type=button value="Print"  onClick="yazdir()">
+<input type=button value="Avg"  onClick="avg()">
+<input type=button value="Max"   onClick="max_avg()">
+</p>
+
+
+<table id="tablo" >
+<hr />
+
+</tablo>
+
+<table id="tablo1" >
+<hr />
+
+</tablo>
+
+<table id="tablo2" >
+<hr />
+
+</tablo>
+
+<script>
+    title.innerText = document.title;
+    var dizi = [];  //initially
+    var max_dizi=[];
+</script>
+
+</body>
+</html>
