@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>HW2</title>
+  <style>
+    .link {
+        color: blue;
+        cursor: pointer;
+        font-style: italic;
+    }
+    .course {
+        visibility: hidden;
+        font: 10px arial, sans-serif;
+        color: white;
+        background: blue;
+        cursor: text;
+        padding: 6px;
+        position: absolute;
+        height: 90px;
+        overflow-y: auto;
+    }
+    .link:hover .course { 
+        visibility: visible; 
+    }
+
+    table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+
+}
+
+  </style>
+
+<script src="Database.js"> </script>
+<style>
+
+</style>
+</head>
+
+<body>
+
+
+<table style="width:50%" border="1">
+ 
+  <tr>
+    <th><button onClick='randomOgrenci()'>Random Öğrenci Seç</button></th>
+    <th><button onClick='sinavTarihleri()'>Sınav Tarihlerini Göster</button></th> 
+    <th><button onClick='odadakiDerslerinAdı()'>Odadaki Derslerin Adı</button> </th>
+  </tr>
+  <tr>
+    <td>Öğrenci ID Girin:</td>
+    <td><input type=number id="ogrenci_id"></td> 
+    <td><button onClick='aldigiDersler()'>Aldığı Dersler</button>
+    <button onClick='ortakDersliOgrenciler()'>Ortak Ders Aldığı Kişiler</button>
+    </td>
+  </tr>
+  <tr>
+    <td>Ortalama Girin</td>
+    <td><input type=number id="x"></td> 
+    <td><button onClick='ortUstu()'>Ortalama Üstü Öğrenciler</button> </td>
+  </tr>
+   <tr>
+    <td>Ders Adı:</td>
+    <td><input type=text id="ders_adı"></td> 
+    <td><button onClick='dersiAlanOgrenciler()'>Dersi Alan Öğrenciler</button>  </td>
+  </tr>
+  <tr>
+    <td>Oda Adı:</td>
+    <td><input type=text id="oda_adı"></td> 
+    <td><button onClick='odadakiDersler()'>Odadaki Derslerin Sayısı</button>  </td>
+  </tr>
+
+</table>
+<p id="p1"></p>
+<hr>
+<P>Ref:
+<a href="https://github.com/maeyler/JS/blob/master/data/Students.html" target="ExternalDocument">Students.Html</a> ,
+<a href="https://github.com/YavuzSelimGugen/advanced_homework/tree/master/HW2" target="ExternalDocument">Yavuz Selim Gügen</a><br>
+
+</P>
+<script>
+    
+</script>
+
+</body>
+</html>
