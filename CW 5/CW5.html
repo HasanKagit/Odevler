@@ -49,6 +49,7 @@ function fileSelect(t) { //target is the button
             const a = evt.target.result; //image source
             out.innerHTML = "<img class=thumb "
                 +"src='"+a+"' title='"+f.name+"' />";
+                array.push(a);
             console.log(f.name+size+f.type);
         };
         reader.readAsDataURL(f);
