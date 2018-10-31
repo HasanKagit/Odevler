@@ -5,4 +5,4 @@ Odevler
 [CW 3](https://hasankagit.github.io/Odevler/inspector.html) <br>
 [CW 4](https://hasankagit.github.io/Odevler/index.html)<br>
 [HW 2](https://hasankagit.github.io/Odevler/HW%202/Database.html)<br>
-
+[CW 5](https://hasankagit.github.io/Odevler/HW%202/Database.html)<br>
