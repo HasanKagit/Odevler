@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)https://maeyler.github.io/JS/hard/Fetch%20remote.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width">
+    <title>CW5 </title>
+<script>
+"use strict";
+function hide() {
+    state.style.visibility = "hidden";
+}
+function show(v) {
+    state.value = v; state.style.visibility = "";
+}
+let x;
+function report(t, n) {
+    show("OK"); setTimeout(hide, 1000);
+    x=t;
+    out.innerText = "uzaktaki dosya okundu.";
+    console.log(n? n : t);
+}
+function readText() {
+    show("FT"); // fetch text
+    fetch(url.value)
+      .then(r => r.text()) 
+      //response of fetch() is r
+      .then(t => report(t, t.length+" chars"));  
+      //response of text() is t
+}
+
+
+
+
+function isText(f) {
+    console.assert(f instanceof File);
+    return f.type.startsWith("text") || f.name.endsWith(".md")
+         || f.name.endsWith(".js") || f.name.endsWith(".java");
+}
+var array=[];
+function fileSelect(t) { //target is the button
+    console.assert(t == button);
+    
+    for(let f of t.files) {
+    	var reader = new FileReader();
+    	const size = " "+f.size+" bytes ";
+  // msg.innerText = f.type+size;
+    if (f.type.startsWith("image")) {
+        reader.onload = function(evt) {
+            const a = evt.target.result; //image source
+            out.innerHTML = "<img class=thumb "
+                +"src='"+a+"' title='"+f.name+"' />";
+            console.log(f.name+size+f.type);
+        };
+        reader.readAsDataURL(f);
+    } else if (isText(f)) {
+        reader.onload = function(evt) { //text
+            const a = evt.target.result.replace(/</g, "&lt;");
+            out.innerHTML = "Lokaldaki dosyalar okundu.";
+            array.push(a);
+            console.log(f.name+size+f.type);
+            
+           
+        }
+        reader.readAsText(f);
+    } else {
+        msg.innerText += "Unknown ";
+        out.innerText = "";
+    }
+    }
+    
+}
+function okunanlar()
+{
+	for(var z=0;z<array.length;z++)
+	{
+		if(x==array[z])
+		{
+			
+			console.log((z+1) + ". dosya ile aynı");
+		}
+		else
+		{
+			console.log((z+1) + ". dosya ile aynı değil");
+		}
+	}
+	
+}
+</script></head>
+
+
+
+<body>
+
+<h2 id="title">CW 5</h2>
+
+<input type="text" id="url" value="https://raw.githubusercontent.com/maeyler/JS/master/data/Students.txt">
+<!--onChange="readText()"-->
+
+<input type="button" value="Uzaktaki dosyayı oku" onclick="readText()">
+<input type="button" id="state" style="visibility: hidden">
+<input type="button" value="Karışılaştır" onclick="okunanlar()">
+<pre id="out"></pre>
+
+
+<input type="file" id="button"  multiple="multiple"  onchange="fileSelect(this)"><br>
+<output id =msg> </output>
+
+<hr>
+
+
+<script>
+    title.innerText = document.title;
+    //sample.innerText = readText+"\n"+readBlob;
+</script>
+
+
+
+</body></html>
