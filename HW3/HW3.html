@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<style >
+html 
+{
+  width: 100%;
+  scroll-behavior: unset;
+  overflow: hidden;
+  height: 100%; 
+}
+body
+{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+#tekerlek1 {
+    left: 340px;
+
+  bottom: 0px;
+  position: absolute;
+}
+#tekerlek2 {
+ left: 695px;
+  bottom: 0px;
+  position: absolute;
+}
+#araba {
+ margin: 0 auto;
+ left: 275px;
+    
+   bottom: 40px;
+  position: absolute;
+}
+#yuz {
+  
+  width: 200;
+  height: : 200;
+  left: 550px;
+  bottom: 180px;
+  position: absolute;
+}
+#b{
+  background-image: url("evler.jpg");
+  background-repeat: repeat-x;
+  width: 100%;
+  position: absolute;
+  height: 100%;
+      background-size: 100% 100%;
+}
+#c{
+  background-image: url("evler.jpg");
+  background-repeat: repeat-x;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+      background-size: 100% 100%;
+}
+
+/*#araba-container
+{
+  left: 0px;
+  right: 0px;
+  margin: 0 auto;
+  position: absolute;
+}
+-->*/
+</style>
+<body >
+  
+    
+    <div id="c" > </div>
+    <div id="b" > </div>
+    <img src="tekerlek.png" id="tekerlek1">
+    <img src="tekerlek.png" id="tekerlek2">
+    <img src="araba.png" id="araba">
+ <img src="yuz.png" id="yuz">
+ 
+<button onclick="newton2() "style="background:transparent url(yeşil.png) no-repeat left top; width:100px; height:100px; position: absolute;">başlat</button>
+<button onclick="newton() "style="background:transparent url(kırmızı.png) no-repeat left top; width:100px; height:100px; position: absolute; left: 100px;">Dur</button>    
+<h1 style="position: relative; text-align:center;text-decoration:underline">NEWTON YASASI</h1>
+ 
+
+
+<script>
+  var a,b,c,d;
+
+function baslat()
+{
+  var donmeZamani = {
+  duration : 3000,
+  iterations:Infinity,
+} 
+var donme={transform:['rotate(0deg)','rotate(-360deg)']};
+var hareket={ transform: ["translateX(0)", "translateX(100%)"] };
+var hareket2={ transform: ["translateX(-100%)", "translateX(0)"] };
+
+
+ a = document.getElementById("b").animate (
+  hareket,
+  donmeZamani
+)
+
+ b = document.getElementById("c").animate (
+  hareket2,
+  donmeZamani
+)
+
+ c =  document.getElementById("tekerlek1").animate (
+  donme,
+  donmeZamani
+);
+d =document.getElementById("tekerlek2").animate (
+  donme,
+  donmeZamani
+); 
+}
+  
+function newton() {
+
+a.pause();b.pause();c.pause();d.pause();
+
+
+  var elem = document.getElementById("yuz");
+  var pos = 800;
+  elem.style.left= "800px";
+  elem.style.bottom="180px";   
+  
+  var id = setInterval(frame, 3);
+  function frame() {
+    if (pos <= 550) {
+      clearInterval(id);
+    } else {
+      pos--; 
+      elem.style.left = pos +'px'; 
+    }
+  }
+
+}
+function newton2() {
+
+baslat();
+
+
+  var elem = document.getElementById("yuz");
+  var pos = 550;
+  elem.style.left= "800px";
+  elem.style.bottom="180px";   
+  
+  var id = setInterval(frame, 3);
+  function frame() {
+    if (pos == 800) {
+      clearInterval(id);
+    } else {
+      pos++; 
+      elem.style.left = pos +'px'; 
+    }
+  }
+  
+}
+
+</script>
+
+</body>
+</html>
