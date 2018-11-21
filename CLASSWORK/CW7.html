@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CW 7</title>
+
+	<style type="text/css">
+		
+    table { border-collapse: collapse; }
+    th { color: blue; padding: 5px 5px; }
+    td { 
+        border: 1px solid blue; 
+        padding: 5px 5px; 
+        text-align: center; 
+    }
+    td:hover .tip { visibility: visible; }
+    .tip {
+        visibility: hidden;
+        font-size: small;
+        background-color: blue;
+        color: white;
+        text-align: center;
+        padding: 5px 5px;
+        position: absolute;
+    }
+
+	</style>
+
+
+	<script >
+	
+		var dizi1=[[1,2],[3,4],[5,6]]
+		var boyut= dizi1[0].length;
+
+function makeRows() {
+	var x=0;
+	var y=0;
+    let row = "<th></th>";
+    for (let j = 1; j <= boyut; j++) 
+        row += "<th>"+j+"</th>";
+    let text = "<tr>"+row+"</tr>";
+    for (let i = 1; i <= dizi1.length; i++) {
+       row = "<th>"+i+"</th>";
+       for (let j = 1; j <= boyut; j++) {
+          
+          row += "<td>"+dizi1[x][y]+"</td>";
+         y++;
+       }
+       text += "<tr>"+row+"</tr>";
+    x++;
+    y=0;
+    }
+
+
+    const t = text.length+" chars";
+    
+    tablo.innerHTML = text; out.innerText = t; 
+}	
+
+</script>
+</head>
+<body>
+<P></P>
+<button onclick="makeRows()" >Tablo oluştur</button>
+<table id="tablo"></table>
+<p id="out"> </p>
+</body>
+</html>
+
+
+
