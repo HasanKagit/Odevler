@@ -11,4 +11,4 @@ Classwork<br>
 Homework<br>
 [HW 1](https://hasankagit.github.io/Odevler/homework_1.html) <br>
 [HW 2](https://hasankagit.github.io/Odevler/HW%202/Database.html)<br>
-[HW 3](https://hasankagit.github.io/Odevler/HW3/HW3.html)<br>
+[HW 3](https://hasankagit.github.io/Odevler/HOMEWORK/HW3/HW3.html)<br>
