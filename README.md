@@ -7,6 +7,7 @@ Classwork<br>
 [CW 4](https://hasankagit.github.io/Odevler/CLASSWORK/CW%204/index.html)<br>
 [CW 5](https://hasankagit.github.io/Odevler/CLASSWORK/CW%205/CW5.html)<br>
 [CW 6](https://hasankagit.github.io/Odevler/CLASSWORK/CW6.html)<br>
+[CW 7](https://hasankagit.github.io/Odevler/CLASSWORK/CW%207/CW7.html)<br>
 
 Homework<br>
 [HW 1](https://hasankagit.github.io/Odevler/HOMEWORK/homework_1.html) <br>
