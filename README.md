@@ -2,10 +2,10 @@
 
 
 Classwork<br>
-[CW 2](https://hasankagit.github.io/Odevler/Lab_2.html) <br>
-[CW 3](https://hasankagit.github.io/Odevler/CW%203/inspector.html) <br>
+[CW 2](https://hasankagit.github.io/Odevler/CLASSWORK/Lab_2.html) <br>
+[CW 3](https://hasankagit.github.io/Odevler/CLASSWORK/CW%203/inspector.html) <br>
 [CW 4](https://hasankagit.github.io/Odevler/CLASSWORK/CW%204/index.html)<br>
-[CW 5](https://hasankagit.github.io/Odevler/CW%205/CW5.html)<br>
+[CW 5](https://hasankagit.github.io/Odevler/CLASSWORK/CW%205/CW5.html)<br>
 [CW 6](https://hasankagit.github.io/Odevler/CLASSWORK/CW6.html)<br>
 
 Homework<br>
