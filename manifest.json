@@ -5,8 +5,8 @@
   "background_color": "cyan",
   "icons": [
     {
-      "src": "https://raw.githubusercontent.com/HasanKagit/Odevler/master/hk.png",
-      "sizes": "1920x800",
+      "src": "https://raw.githubusercontent.com/maeyler/BLM305/master/images/305.png",
+      "sizes": "192x192",
       "type": "image/png"
     }
   ]
