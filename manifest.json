@@ -5,8 +5,8 @@
   "background_color": "cyan",
   "icons": [
     {
-      "src": "hasankagit.png",
-      "sizes": "1920x1080",
+      "src": "hk.png",
+      "sizes": "192x192",
       "type": "image/png"
     }
   ]
