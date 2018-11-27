@@ -3,13 +3,11 @@
 <head>
 	<title></title>
 <link rel="manifest" href="manifest.json">
-<script src="sw.json">
-</script>
 
 <script>
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker
-        .register('/BLM305/sw.js')
+        .register('sw.js')
         .then((reg) => { console.log('SW starts', reg.active) })
         .catch(console.log)
     }
