@@ -1,12 +1,12 @@
 {
-  "name": "JavaScript samples",
+  "name": "Hasan Kağıt",
   "start_url": "/Odevler/index.html",
   "display": "standalone",
   "background_color": "cyan",
   "icons": [
     {
       "src": "hk.png",
-      "sizes": "192x192",
+      "sizes": "1920x800",
       "type": "image/png"
     }
   ]
