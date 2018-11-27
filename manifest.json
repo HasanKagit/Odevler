@@ -5,7 +5,7 @@
   "background_color": "cyan",
   "icons": [
     {
-      "src": "hk.png",
+      "src": "https://raw.githubusercontent.com/HasanKagit/Odevler/master/hk.png",
       "sizes": "1920x800",
       "type": "image/png"
     }
