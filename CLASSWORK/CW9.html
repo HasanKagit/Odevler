@@ -15,7 +15,7 @@
 
 <body>
 
-<h2>Using SVG</h2>
+<h2>SVG</h2>
 <svg id="svg" width="340" height="100">
   <circle id ="c" cx="50" cy="50" r="40" style="fill:yellow;stroke:blue;stroke-width:4"></circle>
   <text x="35" y="55" fill="black">Circle</text>
@@ -23,13 +23,28 @@
   <text x="145" y="55" fill="blue">Rect</text>
 
 <hr>
-<button type="button" name="btn" onclick="svg_boyut(1)" >boyut arttır</button>
-<button type="button" name="btn" onclick="svg_boyut(2)" >boyut azalt</button><br>
-Svg arkaplan rengi değişimi <input id ="clr1" type="color" value="#ff0000" onchange="svg1()"><br>
-Circle arkaplan değişimi <input id ="clr2" type="color" value="#ff0000" onchange="circle(1)"><br>
-Rectangle arkaplan değişimi <input id ="clr3" type="color" value="#ff0000" onchange="rect()"><br>
-<input id="rr" type="range" min="1" max="100" value="50" onchange="circle(2)">
+Lütfen rengini değiştirmek istediğiniz alanı seçin: 
+<select id='s1' name="bilgi" onchange="">
+<option selected value="s">SVG</option>
+<option value="c">CIRCLE</option>
+<option value="r">RECTANGLE</option>
+</select>
+<input id ="clr1" type="color" value="#ff0000" onchange="renk_degisimi(s1.value)"><br>
 
+Lütfen boyutunu değiştirmek istediğniz alanı seçin:
+<select id='s2' name="bilgi" onchange="">
+<option selected value="c">CIRCLE</option>
+<option value="r">RECTANGLE</option>
+</select>
+<input id="r1" type="range" min="1" max="100" value="50" onchange="boy_degisimi(s2.value)"><br>
+
+
+Lütfen yerini değiştirmek istediğniz alanı seçin:
+<select id='s3' name="bilgi" onchange="">
+<option selected value="c">CIRCLE</option>
+<option value="r">RECTANGLE</option>
+</select>
+<input id="r2" type="range" min="1" max="100" value="50" onchange="yer_degisimi(s3.value)">
 </p>
 
 <script>
@@ -37,47 +52,50 @@ Rectangle arkaplan değişimi <input id ="clr3" type="color" value="#ff0000" onc
 var en=100;
 var yukseklik=100;
 var cap=40;
-function svg1 ()
+var deger=50;
+function renk_degisimi (y)
 {
-	svg.style.background=clr1.value;
-}
-function circle (x)
-{
-	if (x==1) {
-		c.style.fill=clr2.value;
+	console.log(y);
+	if (y=="s") {
+		svg.style.background=clr1.value;
 	}
-	
-	else if (x==2) {
-		cap=rr.value;
+	else if(y=="c")
+	{
+		c.style.fill=clr1.value;
+	}
+	else if(y=="r")
+	{
+		r.style.fill=clr1.value;
+	}
+}
+function boy_degisimi(y)
+{
+	cap=r1.value;
+	if(y=="c")
+	{
 		c.style.r=cap;
+	}
+	else if(y=="r")
+	{
+		r.style.width=cap;
+		r.style.height=cap;
+	}
+}
+
+function yer_degisimi(y)
+{
+
+	deger=r2.value;
+	if(y=="c")
+	{
+		c.style.cx=deger;
+	}
+	else if(y=="r")
+	{
+		r.style.x=deger;
 		
 	}
 }
-function rect ()
-{
-	r.style.fill=clr3.value;
-} 
-function svg_boyut (x)
-{
-	if(x==1)
-	{
-		en=en+100;
-		yukseklik=yukseklik+100;
-		svg.style.width=en;
-		svg.style.height=yukseklik;
-		
-	
-	}
-	else if(x==2)
-	{
-		en=en-100;
-		yukseklik=yukseklik-100;
-		svg.style.width=en;
-		svg.style.height=yukseklik;
-		
-	}
-	
-} 
 </script>
 
 
