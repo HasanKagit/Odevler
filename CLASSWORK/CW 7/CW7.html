@@ -6,9 +6,9 @@
 	<style type="text/css">
 		
     table { border-collapse: collapse; }
-    th { color: blue; padding: 5px 5px; }
+    th { color: black; padding: 5px 5px; }
     td { 
-        border: 1px solid blue; 
+        border: 1px solid black; 
         padding: 5px 5px; 
         text-align: center; 
     }
@@ -22,45 +22,47 @@
         padding: 5px 5px;
         position: absolute;
     }
-
 	</style>
 
-
+</head>
 	<script >
 	
-		var dizi1=[[1,2],[3,4],[5,6]]
-		var boyut= dizi1[0].length;
-
+var dizi=["#D24D57","#e74c3c","#f1c40f","#2c3e50","#8e44ad","#bdc3c7","#1abc9c","#3498db","#95a5a6"];
 function makeRows() {
-	var x=0;
-	var y=0;
+	var ustSayi=20;
+	var altSayi=1;
+	var sayi=Math.random();
+	sayi=sayi*(ustSayi-altSayi);
+	sayi=Math.floor(sayi)+altSayi; 
+
+	var rasgele=Math.floor(Math.random()*dizi.length);
+	document.body.style.backgroundColor=dizi[rasgele];
+
     let row = "<th></th>";
-    for (let j = 1; j <= boyut; j++) 
+    for (let j = 1; j <= sayi; j++) 
         row += "<th>"+j+"</th>";
     let text = "<tr>"+row+"</tr>";
-    for (let i = 1; i <= dizi1.length; i++) {
+    for (let i = 1; i <= sayi; i++) {
        row = "<th>"+i+"</th>";
-       for (let j = 1; j <= boyut; j++) {
-          
-          row += "<td>"+dizi1[x][y]+"</td>";
-         y++;
+       for (let j = 1; j <= sayi; j++) { 
+       		var x=20;
+			var y=1;
+			var z=Math.random();
+			z=z*(x-y);
+			z=Math.floor(z)+y; 
+
+          row += "<td>"+z+"</td>";
        }
        text += "<tr>"+row+"</tr>";
-    x++;
-    y=0;
     }
-
-
-    const t = text.length+" chars";
-    
-    tablo.innerHTML = text; out.innerText = t; 
+    tablo.innerHTML = text; 
 }	
-
 </script>
-</head>
+
 <body>
 <P></P>
-<button onclick="makeRows()" >Tablo oluştur</button>
+<button onclick="makeRows()" >Rastgele Büyüklükte Kare Matris oluştur</button>
+<p>Rastegel tablo oluştur butonuna basınca, 1-20 arasında rastgele bir kare tablo oluşuturup, satır ve sütunlara yine 1-20 arasında rastgele değerler girilmekte. Aynı zamanda "body" arkaplanı rastgele bir şekilde değişmekte.</p>
 <table id="tablo"></table>
 <p id="out"> </p>
 </body>
