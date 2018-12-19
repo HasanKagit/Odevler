@@ -1,0 +1,115 @@
+<!-- Referanslar:
+  https://foundation.zurb.com/templates.html
+  https://www.w3schools.com/howto/howto_css_contact_form.asp -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Yazı_Ekle</title>
+<link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+  input[type=text], select, textarea {
+      width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+
+  border-color: #2196F3;
+  color: dodgerblue
+}
+
+input[type=submit]:hover {
+  background: #2196F3;
+  color: white;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+</head>
+<body style=" background-image:url(f.jpg);">
+<div class="top-bar"  >
+    <div class="top-bar-left"  >
+      <ul class="menu" >
+        <li class="menu-text" >hasankagit.com</li>
+      </ul>
+    </div>
+    <div class="top-bar-right">
+      <ul class="menu" >
+        <li ><a href="index.html">ANASAYFA</a></li>
+        <li ><a href="yazi_ekle.html">YAZI EKLE</a></li>
+        <li><a href="iletisim.html">İLETİŞİM </a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="callout large primary"  style="overflow: hidden; background-color: #8B0000">
+  
+     <div class="row column text-center">
+      <h1>Yazınızı Ekleyin</h1>
+    </div>
+  </div>
+
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">Yazar Adı</label>
+    <input type="text" id="fname" name="Adınız" placeholder="Yazarın Adını Girin...">
+
+    <label for="country">Yazı Kategorisini seçin</label>
+        <select id="country" name="country">
+           <option value="Andorid">Andorid</option>
+           <option value="Apple - IOS">Apple - IOS</option>
+           <option value="İnternet">İnternet</option>
+            <option value="Nasıl Yapılır?">Nasıl Yapılır?</option>
+           <option value="Oyun">Oyun</option>
+           <option value="Teknoloji Haberleri">Teknoloji Haberleri</option>
+        </select>
+    <label for="lname">Yazı Başlığı</label>
+    <input type="text" id="lname" name="Soyadınız" placeholder="Yazının Balığını Girin...">
+
+    
+
+    <label for="subject">Konu</label>
+    <textarea id="subject" name="subject" placeholder="Yazınızın Detayını Girin..." style="height:200px"></textarea>
+
+    <input type="submit" value="Gönder">
+
+  </form>
+</div>
+<div class="top-bar"  >
+    <div class="top-bar-left"  >
+      <ul class="menu" >
+        <li class="menu-text" >hasankagit.com</li>
+      </ul>
+    </div>
+    <div class="top-bar-right">
+      <ul class="menu" >
+        <li >Referanslar</li>
+        <li ><a href="https://foundation.zurb.com/templates.html">foundation.zurb.com</a></li>
+        <li ><a href="https://www.w3schools.com/howto/howto_css_contact_form.asp">w3schools.com</a></li>
+        
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
