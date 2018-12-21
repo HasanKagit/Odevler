@@ -210,7 +210,7 @@ function yazi_ekle()
   x.kategori = kategoriler.value;
   x.baslik = yazi_basligi.value;
   x.tarih = yazi_tarihi.value;
-  x.resim = "thurhost_sunuculari.jpg";
+  x.resim = yazi_gorsel.value;
   x.yazar_ad = yazar_adi.value;
   x.detay =yazi_konu.value;
   yazilar.push(y);
