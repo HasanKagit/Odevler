@@ -40,12 +40,34 @@ input[type=submit]:hover {
   color: white;
 }
 
+.button{
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+
+  border-color: #2196F3;
+  color: dodgerblue
+}
+.button:hover
+{
+    background: #2196F3;
+  color: white;
+}
+
 .container {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
 }
 </style>
+
+<script src="Database.js"> 
+</script>
+
+
 </head>
 <body style=" background-image:url(f.jpg);">
 <div class="top-bar"  >
@@ -73,12 +95,12 @@ input[type=submit]:hover {
 
 
 <div class="container">
-  <form action="/action_page.php">
+  
     <label for="fname">Yazar Adı</label>
-    <input type="text" id="fname" name="Adınız" placeholder="Yazarın Adını Girin...">
+    <input type="text" id="yazar_adi" name="Adınız" placeholder="Yazarın Adını Girin...">
 
     <label for="country">Yazı Kategorisini seçin</label>
-        <select id="country" name="country">
+        <select id="kategoriler" name="kategori">
            <option value="Andorid">Andorid</option>
            <option value="Apple - IOS">Apple - IOS</option>
            <option value="İnternet">İnternet</option>
@@ -87,16 +109,16 @@ input[type=submit]:hover {
            <option value="Teknoloji Haberleri">Teknoloji Haberleri</option>
         </select>
     <label for="lname">Yazı Başlığı</label>
-    <input type="text" id="lname" name="Soyadınız" placeholder="Yazının Balığını Girin...">
-
-    
+    <input type="text" id="yazi_basligi" name="yazi_basligi" placeholder="Yazının Balığını Girin...">
 
     <label for="subject">Konu</label>
-    <textarea id="subject" name="subject" placeholder="Yazınızın Detayını Girin..." style="height:200px"></textarea>
-
-    <input type="submit" value="Gönder">
-
-  </form>
+    <textarea id="yazi_konu" name="subject" placeholder="Yazınızın Detayını Girin..." style="height:200px"></textarea>
+   
+    <label for="ltarih">Tarih</label>
+    <input type="text" id="yazi_tarihi" name="yazi_tarihi" placeholder="../../....">
+   
+   <!-- <input type="submit" value="Gönder" onclick="yazim_ekle()">-->
+    <button class="button" onClick="yazim_ekle()">Ekle</button>
 </div>
 <div class="top-bar"  >
     <div class="top-bar-left"  >
@@ -113,5 +135,6 @@ input[type=submit]:hover {
       </ul>
     </div>
   </div>
+
 </body>
 </html>
