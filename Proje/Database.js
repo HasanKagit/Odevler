@@ -33,7 +33,7 @@ function pressAll() {
     var yazar_node = document.createElement("LI");
     yazar_node.innerHTML += "<a href='#'>Yazar: " + obj.yazar_ad + "</a>"
     var yorum_node = document.createElement("LI");
-    yorum_node.innerHTML += "<a href='#'>Yorum: 3</a>"
+    yorum_node.innerHTML += "<a href='#'>Yorum: " +obj.yorum_sayisi+ "</a>"
 
     ul.appendChild(yazar_node);
     ul.appendChild(yorum_node);
@@ -83,7 +83,7 @@ function pressKategori(key) {
       var yazar_node = document.createElement("LI");
       yazar_node.innerHTML += "<a href='#'>Yazar: " + obj.yazar_ad + "</a>"
       var yorum_node = document.createElement("LI");
-      yorum_node.innerHTML += "<a href='#'>Yorum: 3</a>"
+      yorum_node.innerHTML += "<a href='#'>Yorum: " +obj.yorum_sayisi+ "</a>"
 
       ul.appendChild(yazar_node);
       ul.appendChild(yorum_node);
@@ -135,7 +135,7 @@ function yazarYazilari(key) {
       var yazar_node = document.createElement("LI");
       yazar_node.innerHTML += "<a href='#'>Yazar: " + obj.yazar_ad + "</a>"
       var yorum_node = document.createElement("LI");
-      yorum_node.innerHTML += "<a href='#'>Yorum: 3</a>"
+      yorum_node.innerHTML += "<a href='#'>Yorum: " +obj.yorum_sayisi+ "</a>"
 
       ul.appendChild(yazar_node);
       ul.appendChild(yorum_node);
@@ -216,7 +216,7 @@ function yazi_ekle()
   yazilar.push(y);
 }
   class Yazilar {
-    constructor(id, kategori, baslik, tarih, resim, detay, yazar_ad) {
+    constructor(id, kategori, baslik, tarih, resim, detay, yazar_ad,yorum_sayisi) {
       this.id = id;
       this.kategori = kategori;
       this.baslik = baslik;
@@ -224,6 +224,7 @@ function yazi_ekle()
       this.resim = resim;
       this.detay = detay;
       this.yazar_ad = yazar_ad;
+      this.yorum_sayisi=yorum_sayisi;
     }
 
     toString() {
@@ -239,6 +240,7 @@ function yazi_ekle()
   y.tarih = "01/01/2018";
   y.resim = "resimler/thurhost_sunuculari.jpg";
   y.yazar_ad = "Hasan Kağıt"
+  y.yorum_sayisi=10;
   y.detay = "Aklınızda sizin için çok değerli bir fikir var ve bunu uygulamak, insanlarla paylaşmak, harcadığınız emeğin karşılığını almak istiyorsunuz. Tabi ki bunun en kolay yolu artık gelişen internet ortamından geçiyor. Fikirlerinizi paylaştığınız bir blog sitesi, ürünlerinizi pazarladığınız bir e-ticaret sitesi ya da insanların fikirlerini paylaştığı modern bir forum sitesi kurma hedefiniz olabilir. Hayallerinizi gerçeğe dönüştürdüğünüz bir web sitesinde başarılı olabilmek için en önemli ilk üç etkenden biri de şüphesiz web sitesi barındırma hizmetidir.";
   yazilar.push(y);
 
@@ -250,6 +252,7 @@ function yazi_ekle()
   y1.tarih = "02/01/2018";
   y1.resim = "resimler/google_translate.jpg";
   y1.yazar_ad = "Mustafa Kıyga";
+  y1.yorum_sayisi=13;
   y1.detay = "Dünyanın en çok kullanılan ama bunun yanında en çok dalga geçilen hatta çeviri ile dalga geçmek için “bunu Google Translate’de mi çevirdin” sorularına konu olan uygulama güncellendi. Artık daha iyi artık daha gelişmiş. İşte Google Translate’in bilmek isteyebileceğiniz yenilikleri";
   yazilar.push(y1);
 
@@ -261,6 +264,7 @@ function yazi_ekle()
   y2.tarih = "03/01/2018";
   y2.resim = "resimler/spotify.jpg";
   y2.yazar_ad = "Furkan Çankaya";
+  y2.yorum_sayisi=7;
   y2.detay = "Spotify , dünyanın en çok kullanılan müzik platformlarından birisi. Geniş müzik yelpazesi, uygun fiyatlar ve kaliteli ses gibi özelliklerle ülkemizde de ön plana çıkan Spotify, kendini yenilmeye devam ediyor. Ortaya atılan bazı iddialar, Spotify’ın oldukça dikkat çekici bir kaç özelliğini test ettiğini ortaya koyuyor. İşte Spotify’a yakın zaman içinde gelmesi beklenen özellikler.";
   yazilar.push(y2); 
 
@@ -272,5 +276,6 @@ function yazi_ekle()
   y3.tarih = "21/12/2018";
   y3.resim = "resimler/chrome.jpg";
   y3.yazar_ad = "Hasan Kağıt";
+  y3.yorum_sayisi=5;
   y3.detay = "Uzun zamandır iOS in Chrome ‘da kullanılan özellik sonunda Android işletim sistemindeki Chrome için de yayınlanacak. Jestler dedikleri parmak hareketleri desteği Chrome için geliyor. İnsanların sordukları soru ise neden ilk...";
   yazilar.push(y3);  
