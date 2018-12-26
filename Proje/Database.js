@@ -238,7 +238,7 @@ function yazi_ekle()
   y.kategori = "Teknoloji";
   y.baslik = "Yeni Nesil Turhost Sunucuları ve Diğer Yenilikler";
   y.tarih = "01/01/2018";
-  y.resim = "resimler/thurhost_sunuculari.jpg";
+  y.resim = "https://hasankagit.github.io/Odevler/Proje/resimler/thurhost_sunuculari.jpg";
   y.yazar_ad = "Hasan Kağıt"
   y.yorum_sayisi=10;
   y.detay = "Aklınızda sizin için çok değerli bir fikir var ve bunu uygulamak, insanlarla paylaşmak, harcadığınız emeğin karşılığını almak istiyorsunuz. Tabi ki bunun en kolay yolu artık gelişen internet ortamından geçiyor. Fikirlerinizi paylaştığınız bir blog sitesi, ürünlerinizi pazarladığınız bir e-ticaret sitesi ya da insanların fikirlerini paylaştığı modern bir forum sitesi kurma hedefiniz olabilir. Hayallerinizi gerçeğe dönüştürdüğünüz bir web sitesinde başarılı olabilmek için en önemli ilk üç etkenden biri de şüphesiz web sitesi barındırma hizmetidir.";
@@ -249,7 +249,7 @@ function yazi_ekle()
   y1.kategori = "Teknoloj";
   y1.baslik = "Google Translate’in Yeni Özellikleri Neler?";
   y1.tarih = "02/01/2018";
-  y1.resim = "resimler/google_translate.jpg";
+  y1.resim = "https://hasankagit.github.io/Odevler/Proje/resimler/google_translate.jpg";
   y1.yazar_ad = "Mustafa Kıyga";
   y1.yorum_sayisi=13;
   y1.detay = "Dünyanın en çok kullanılan ama bunun yanında en çok dalga geçilen hatta çeviri ile dalga geçmek için “bunu Google Translate’de mi çevirdin” sorularına konu olan uygulama güncellendi. Artık daha iyi artık daha gelişmiş. İşte Google Translate’in bilmek isteyebileceğiniz yenilikleri";
@@ -261,7 +261,7 @@ function yazi_ekle()
   y2.kategori = "İnternet";
   y2.baslik = "Spotify’ın Yeni Özellikleri Neler?";
   y2.tarih = "03/01/2018";
-  y2.resim = "resimler/spotify.jpg";
+  y2.resim = "https://hasankagit.github.io/Odevler/Proje/resimler/spotify.jpg";
   y2.yazar_ad = "Furkan Çankaya";
   y2.yorum_sayisi=7;
   y2.detay = "Spotify , dünyanın en çok kullanılan müzik platformlarından birisi. Geniş müzik yelpazesi, uygun fiyatlar ve kaliteli ses gibi özelliklerle ülkemizde de ön plana çıkan Spotify, kendini yenilmeye devam ediyor. Ortaya atılan bazı iddialar, Spotify’ın oldukça dikkat çekici bir kaç özelliğini test ettiğini ortaya koyuyor. İşte Spotify’a yakın zaman içinde gelmesi beklenen özellikler.";
@@ -273,7 +273,7 @@ function yazi_ekle()
   y3.kategori = "Android";
   y3.baslik = "Android İçin Chrome’a Parmak Hareketleri Geliyor";
   y3.tarih = "21/12/2018";
-  y3.resim = "resimler/chrome.jpg";
+  y3.resim = "https://hasankagit.github.io/Odevler/Proje/resimler/chrome.jpg";
   y3.yazar_ad = "Hasan Kağıt";
   y3.yorum_sayisi=5;
   y3.detay = "Uzun zamandır iOS in Chrome ‘da kullanılan özellik sonunda Android işletim sistemindeki Chrome için de yayınlanacak. Jestler dedikleri parmak hareketleri desteği Chrome için geliyor. İnsanların sordukları soru ise neden ilk...";
