@@ -245,9 +245,15 @@ function yazi_ekle()
   yazilar.push(y);
 
 
+
+
+
+
+  
+
   var y1 = new Yazilar();
   y1.id = 2;
-  y1.kategori = "Teknoloji";
+  y1.kategori = "Teknoloj";
   y1.baslik = "Google Translate’in Yeni Özellikleri Neler?";
   y1.tarih = "02/01/2018";
   y1.resim = "resimler/google_translate.jpg";
