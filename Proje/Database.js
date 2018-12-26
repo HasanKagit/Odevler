@@ -244,13 +244,6 @@ function yazi_ekle()
   y.detay = "Aklınızda sizin için çok değerli bir fikir var ve bunu uygulamak, insanlarla paylaşmak, harcadığınız emeğin karşılığını almak istiyorsunuz. Tabi ki bunun en kolay yolu artık gelişen internet ortamından geçiyor. Fikirlerinizi paylaştığınız bir blog sitesi, ürünlerinizi pazarladığınız bir e-ticaret sitesi ya da insanların fikirlerini paylaştığı modern bir forum sitesi kurma hedefiniz olabilir. Hayallerinizi gerçeğe dönüştürdüğünüz bir web sitesinde başarılı olabilmek için en önemli ilk üç etkenden biri de şüphesiz web sitesi barındırma hizmetidir.";
   yazilar.push(y);
 
-
-
-
-
-
-  
-
   var y1 = new Yazilar();
   y1.id = 2;
   y1.kategori = "Teknoloj";
