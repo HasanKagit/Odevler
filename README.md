@@ -17,4 +17,4 @@ Homework<br>
 [HW 4](https://hasankagit.github.io/Odevler/index.html)<br>
 
 Proje<br>
-[BLOG](https://hasankagit.github.io/Odevler/Proje/index.html)<br>
+[BLOG](https://hasankagit.github.io/Odevler/Proje/hasankagit.html)<br>
