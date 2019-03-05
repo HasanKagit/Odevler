@@ -1,0 +1,369 @@
+Amsterdam   Madrid       Business   10.1.2019   12607   671   33.55
+Amsterdam   Moskova      Business   11.1.2019   13827   745   37.25
+Amsterdam   Münih        Business   12.1.2019   19834   526   26.3
+Amsterdam   Newyork      Business   13.1.2019   20688   866   43.3
+Amsterdam   Paris        Business   14.1.2019   10220   781   39.05
+Amsterdam   Pekin        Business   15.1.2019   17206   776   38.8
+Amsterdam   Roma         Business   16.1.2019   19548   932   46.6
+Amsterdam   Halep        Business   17.1.2019   12469   693   34.65
+Amsterdam   Sydney       Business   18.1.2019   23064   505   25.25
+Amsterdam   Tokyo        Business   10.1.2019   22231   500   25
+Amsterdam   Zürih        Business   11.1.2019   24446   588   29.4
+Amsterdam   Antalya      Business   12.1.2019   11712   875   43.75
+Amsterdam   Cape Town    Business   13.1.2019   16966   515   25.75
+Amsterdam   Honk Kong    Business   14.1.2019   16572   879   43.95
+Amsterdam   İstanbul     Business   15.1.2019   10426   660   33
+Amsterdam   İsveç        Business   16.1.2019   22238   901   45.05
+Amsterdam   Lille        Business   17.1.2019   15863   969   48.45
+Amsterdam   Londra       Business   18.1.2019   12785   709   35.45
+Amsterdam   Los Angele   Business   10.1.2019   20229   768   38.4
+Antalya     Moskova      Business   11.1.2019   22774   789   39.45
+Antalya     Münih        Business   12.1.2019   24612   550   27.5
+Antalya     Newyork      Business   13.1.2019   17442   801   40.05
+Antalya     Paris        Business   14.1.2019   14707   706   35.3
+Antalya     Pekin        Business   15.1.2019   22098   731   36.55
+Antalya     Roma         Business   16.1.2019   10430   522   26.1
+Antalya     Halep        Business   17.1.2019   17659   784   39.2
+Antalya     Sydney       Business   18.1.2019   12735   826   41.3
+Antalya     Tokyo        Business   10.2.2019   10772   726   36.3
+Antalya     Zürih        Business   11.2.2019   23947   658   32.9
+Antalya     Cape Town    Business   12.2.2019   24611   580   29
+Antalya     Honk Kong    Business   13.2.2019   20580   606   30.3
+Antalya     İstanbul     Business   14.2.2019   16155   585   29.25
+Antalya     İsveç        Business   15.2.2019   18578   739   36.95
+Antalya     Lille        Business   16.2.2019   16848   876   43.8
+Antalya     Londra       Business   17.2.2019   14836   718   35.9
+Antalya     Los Angele   Business   18.2.2019   12993   532   26.6
+Antalya     Madrid       Business   19.2.2019   19598   832   41.6
+Cape Town   Münih        Business   20.2.2019   12987   935   46.75
+Cape Town   Newyork      Business   21.2.2019   18725   665   33.25
+Cape Town   Paris        Business   22.2.2019   13629   891   44.55
+Cape Town   Pekin        Business   11.2.2019   11678   556   27.8
+Cape Town   Roma         Business   12.2.2019   18771   762   38.1
+Cape Town   Halep        Business   13.2.2019   14525   510   25.5
+Cape Town   Sydney       Business   14.2.2019   24636   588   29.4
+Cape Town   Tokyo        Business   15.2.2019   11018   673   33.65
+Cape Town   Zürih        Business   16.2.2019   22441   563   28.15
+Cape Town   Amsterdam    Business   17.2.2019   10271   607   30.35
+Cape Town   Antalya      Business   18.2.2019   20632   906   45.3
+Cape Town   Honk Kong    Business   19.2.2019   20301   536   26.8
+Cape Town   İstanbul     Business   20.2.2019   24959   527   26.35
+Cape Town   İsveç        Business   21.2.2019   16544   892   44.6
+Cape Town   Lille        Business   22.2.2019   15975   547   27.35
+Cape Town   Londra       Business   22.2.2019   21707   702   35.1
+Cape Town   Los Angele   Business   11.2.2019   22765   768   38.4
+Cape Town   Madrid       Business   12.2.2019   14198   791   39.55
+Cape Town   Moskova      Business   13.2.2019   11182   672   33.6
+Honk Kong   Newyork      Business   14.2.2019   15051   848   42.4
+Honk Kong   Cape Town    Business   15.2.2019   15542   777   38.85
+Honk Kong   İstanbul     Business   16.2.2019   21262   646   32.3
+Honk Kong   İsveç        Business   17.2.2019   13041   624   31.2
+Honk Kong   Lille        Business   18.2.2019   14778   594   29.7
+Honk Kong   Londra       Business   19.2.2019   24789   956   47.8
+Honk Kong   Los Angele   Business   20.2.2019   21974   681   34.05
+Honk Kong   Madrid       Business   21.2.2019   20713   564   28.2
+Honk Kong   Moskova      Business   22.2.2019   16074   789   39.45
+Honk Kong   Münih        Business   10.3.2019   20965   702   35.1
+Honk Kong   Paris        Business   11.3.2019   17955   557   27.85
+
+Honk Kong   Pekin        Business   12.3.2019   19458   667   33.35
+Honk Kong   Roma         Business   13.3.2019   16714   970   48.5
+Honk Kong   Halep        Business   14.3.2019   17507   643   32.15
+Honk Kong   Sydney       Business   11.3.2019   15965   839   41.95
+Honk Kong   Tokyo        Business   12.3.2019   14087   983   49.15
+Honk Kong   Zürih        Business   13.3.2019   12465   787   39.35
+Honk Kong   Amsterdam    Business   14.3.2019   19155   961   48.05
+İstanbul    Paris        Business   15.3.2019   13417   855   42.75
+İstanbul    Amsterdam    Business   16.3.2019   10826   886   44.3
+İstanbul    Antalya      Business   17.3.2019   24927   508   25.4
+İstanbul    Cape Town    Business   18.3.2019   19761   735   36.75
+İstanbul    Honk Kong    Business   19.3.2019   21919   885   44.25
+İstanbul    İsveç        Business   20.3.2019   23880   874   43.7
+İstanbul    Lille        Business   10.3.2019   11569   967   48.35
+İstanbul    Londra       Business   11.3.2019   16063   981   49.05
+İstanbul    Los Angele   Business   12.3.2019   15578   934   46.7
+İstanbul    Madrid       Business   13.3.2019   11786   745   37.25
+İstanbul    Moskova      Business   14.3.2019   13477   762   38.1
+İstanbul    Münih        Business   11.3.2019   13829   515   25.75
+İstanbul    Newyork      Business   12.3.2019   19558   931   46.55
+İstanbul    Pekin        Business   13.3.2019   23441   887   44.35
+İstanbul    Roma         Business   14.3.2019   16892   971   48.55
+İstanbul    Halep        Business   15.3.2019   11307   865   43.25
+İstanbul    Sydney       Business   16.3.2019   15524   684   34.2
+İstanbul    Tokyo        Business   17.3.2019   14643   616   30.8
+İstanbul    Zürih        Business   18.3.2019   10049   689   34.45
+İsveç       Pekin        Business   19.3.2019   11975   825   41.25
+İsveç       İstanbul     Business   20.3.2019   19078   681   34.05
+İsveç       Lille        Business   10.3.2019   23002   593   29.65
+İsveç       Londra       Business   11.3.2019   22107   857   42.85
+İsveç       Los Angele   Business   12.3.2019   19342   773   38.65
+İsveç       Madrid       Business   13.3.2019   15105   929   46.45
+İsveç       Moskova      Business   14.3.2019   12206   955   47.75
+İsveç       Münih        Business   11.3.2019   11046   528   26.4
+İsveç       Newyork      Business   12.3.2019   15792   622   31.1
+İsveç       Paris        Business   13.3.2019   15097   985   49.25
+İsveç       Pekin        Business   14.3.2019   10831   829   41.45
+İsveç       Roma         Business   15.3.2019   22391   522   26.1
+İsveç       Halep        Business   16.3.2019   20373   718   35.9
+İsveç       Sydney       Business   17.3.2019   16050   566   28.3
+İsveç       Tokyo        Business   18.3.2019   16205   858   42.9
+İsveç       Zürih        Business   19.3.2019   15410   788   39.4
+İsveç       Antalya      Business   20.3.2019   21918   662   33.1
+İsveç       Cape Town    Business   21.4.2019   13345   745   37.25
+Lille       Roma         Business   22.4.2019   10210   849   42.45
+Lille       İsveç        Business   23.4.2019   18065   723   36.15
+Lille       Londra       Business   24.4.2019   18944   867   43.35
+Lille       Los Angele   Business   25.4.2019   10243   635   31.75
+Lille       Madrid       Business   26.4.2019   11447   505   25.25
+Lille       Moskova      Business   27.4.2019   11518   728   36.4
+Lille       Münih        Business   28.4.2019   21436   731   36.55
+Lille       Newyork      Business   29.4.2019   14136   738   36.9
+Lille       Paris        Business   30.4.2019   16729   583   29.15
+Lille       Pekin        Business   21.4.2019   19272   891   44.55
+Lille       Roma         Business   22.4.2019   16923   577   28.85
+Lille       Halep        Business   23.4.2019   14589   681   34.05
+Lille       Sydney       Business   24.4.2019   24578   594   29.7
+Lille       Tokyo        Business   25.4.2019   10261   836   41.8
+Lille       Zürih        Business   26.4.2019   19044   937   46.85
+Lille       Antalya      Business   27.4.2019   20421   504   25.2
+Lille       Cape Town    Business   28.4.2019   19181   934   46.7
+Lille       Honk Kong    Business   29.4.2019   19172   569   28.45
+Londra      Halep        Business   30.4.2019   11315   982   49.1
+Londra      Lille        Business   21.4.2019   17639   866   43.3
+Londra      Los Angele   Business   22.4.2019   10101   521   26.05
+Londra       Madrid       Business   23.4.2019   11168   956   47.8
+Londra       Moskova      Business   24.4.2019   11808   710   35.5
+
+Londra       Münih        Business   25.4.2019   21958   601   30.05
+Londra       Newyork      Business   26.4.2019   11047   687   34.35
+Londra       Paris        Business   27.4.2019   11891   905   45.25
+Londra       Pekin        Business   28.4.2019   11101   609   30.45
+Londra       Roma         Business   29.4.2019   23878   969   48.45
+Londra       Halep        Business   30.4.2019   10024   678   33.9
+Londra       Sydney       Business   21.4.2019   17163   798   39.9
+Londra       Tokyo        Business   22.4.2019   21090   800   40
+Londra       Zürih        Business   23.4.2019   15895   633   31.65
+Londra       Antalya      Business   24.4.2019   23349   686   34.3
+Londra       Cape Town    Business   25.4.2019   15190   788   39.4
+Londra       Honk Kong    Business   26.4.2019   11075   598   29.9
+Londra       İstanbul     Business   27.4.2019   10367   960   48
+Los Angele   Sydney       Business   28.4.2019   12291   845   42.25
+Los Angele   Londra       Business   29.4.2019   22336   744   37.2
+Los Angele   Madrid       Business   30.4.2019   19953   662   33.1
+Los Angele   Moskova      Business   10.6.2019   22817   604   30.2
+Los Angele   Münih        Business   11.6.2019   18373   605   30.25
+Los Angele   Newyork      Business   12.6.2019   16595   816   40.8
+Los Angele   Paris        Business   13.6.2019   14348   758   37.9
+Los Angele   Pekin        Business   14.6.2019   19133   542   27.1
+Los Angele   Roma         Business   15.6.2019   16871   816   40.8
+Los Angele   Halep        Business   16.6.2019   20810   935   46.75
+Los Angele   Sydney       Business   17.6.2019   22134   754   37.7
+Los Angele   Tokyo        Business   18.6.2019   16027   756   37.8
+Los Angele   Zürih        Business   19.6.2019   12529   736   36.8
+Los Angele   Antalya      Business   20.6.2019   20477   916   45.8
+Los Angele   Cape Town    Business   10.6.2019   18988   773   38.65
+Los Angele   Honk Kong    Business   11.6.2019   12495   611   30.55
+Los Angele   İstanbul     Business   12.6.2019   12138   996   49.8
+Los Angele   İsveç        Business   13.6.2019   13573   794   39.7
+Madrid       Tokyo        Business   14.6.2019   17402   899   44.95
+Madrid       Los Angele   Business   15.6.2019   15636   679   33.95
+Madrid       Moskova      Business   16.6.2019   20359   859   42.95
+Madrid       Münih        Business   17.6.2019   17287   581   29.05
+Madrid       Newyork      Business   18.6.2019   22991   544   27.2
+Madrid       Paris        Business   19.6.2019   22223   748   37.4
+Madrid       Pekin        Business   20.6.2019   17945   827   41.35
+Madrid       Roma         Business   10.6.2019   23876   726   36.3
+Madrid       Halep        Business   11.6.2019   11876   996   49.8
+Madrid       Sydney       Business   12.6.2019   17725   621   31.05
+Madrid       Tokyo        Business   13.6.2019   15455   855   42.75
+Madrid       Zürih        Business   14.6.2019   14951   763   38.15
+Madrid       Antalya      Business   15.6.2019   15532   736   36.8
+Madrid       Cape Town    Business   16.6.2019   17223   976   48.8
+Madrid       Honk Kong    Business   17.6.2019   10513   556   27.8
+Madrid       İstanbul     Business   18.6.2019   15552   898   44.9
+Madrid       İsveç        Business   19.6.2019   15629   966   48.3
+Madrid       Lille        Business   20.6.2019   17644   529   26.45
+Moskova      Zürih        Business   10.7.2019   17791   902   45.1
+Moskova      Madrid       Business   11.7.2019   21143   654   32.7
+Moskova      Münih        Business   12.7.2019   16184   755   37.75
+Moskova      Newyork      Business   13.7.2019   13148   627   31.35
+Moskova      Paris        Business   14.7.2019   13029   951   47.55
+Moskova      Pekin        Business   15.7.2019   17367   591   29.55
+Moskova      Roma         Business   16.7.2019   18651   963   48.15
+Moskova      Halep        Business   17.7.2019   15226   984   49.2
+Moskova      Sydney       Business   18.7.2019   15746   650   32.5
+Moskova      Tokyo        Business   13.7.2019   18921   658   32.9
+Moskova      Zürih        Business   14.7.2019   17584   986   49.3
+Moskova      Antalya      Business   15.7.2019   21101   805   40.25
+Moskova      Cape Town    Business   16.7.2019   24590   710   35.5
+Moskova      Honk Kong    Business   17.7.2019   10244   780   39
+Moskova   İstanbul     Business   18.7.2019   14994   509   25.45
+Moskova   İsveç        Business   19.7.2019   13470   839   41.95
+Moskova   Lille        Business   20.7.2019   19816   960   48
+Moskova   Londra       Business   10.7.2019   11954   502   25.1
+Münih     Amsterdam    Business   11.7.2019   20702   762   38.1
+Münih     Antalya      Business   12.7.2019   21363   536   26.8
+Münih     Cape Town    Business   13.7.2019   18874   946   47.3
+Münih     Honk Kong    Business   14.7.2019   22988   676   33.8
+Münih     İstanbul     Business   15.7.2019   18675   814   40.7
+Münih     İsveç        Business   16.7.2019   10976   952   47.6
+Münih     Lille        Business   17.7.2019   23782   871   43.55
+Münih     Londra       Business   18.7.2019   24321   570   28.5
+Münih     Los Angele   Business   13.7.2019   10706   644   32.2
+Münih     Madrid       Business   14.7.2019   16808   853   42.65
+Münih     Moskova      Business   15.7.2019   22685   713   35.65
+Münih     Newyork      Business   16.7.2019   15846   634   31.7
+Münih     Paris        Business   17.7.2019   18663   698   34.9
+Münih     Pekin        Business   18.7.2019   22185   573   28.65
+Münih     Roma         Business   19.7.2019   12847   608   30.4
+Münih     Halep        Business   20.7.2019   18614   635   31.75
+Münih     Sydney       Business   10.7.2019   10092   730   36.5
+Münih     Tokyo        Business   11.7.2019   14408   652   32.6
+Münih     Zürih        Business   12.7.2019   18249   731   36.55
+Newyork   Antalya      Business   13.7.2019   20020   938   46.9
+Newyork   Cape Town    Business   14.7.2019   19019   619   30.95
+Newyork   Honk Kong    Business   15.7.2019   13207   544   27.2
+Newyork   İstanbul     Business   16.7.2019   12002   566   28.3
+Newyork   İsveç        Business   17.7.2019   14823   843   42.15
+Newyork   Lille        Business   18.7.2019   19537   827   41.35
+Newyork   Londra       Business   13.7.2019   12024   807   40.35
+Newyork   Los Angele   Business   14.7.2019   16897   514   25.7
+Newyork   Madrid       Business   15.7.2019   14982   578   28.9
+Newyork   Moskova      Business   16.7.2019   14014   982   49.1
+Newyork   Münih        Business   17.7.2019   19790   604   30.2
+Newyork   Paris        Business   18.7.2019   21628   820   41
+Newyork   Pekin        Business   19.7.2019   21238   862   43.1
+Newyork   Roma         Business   20.7.2019   20682   955   47.75
+Newyork   Halep        Business   25.8.2019   11373   642   32.1
+Newyork   Sydney       Business   26.8.2019   10536   810   40.5
+Newyork   Tokyo        Business   27.8.2019   19205   798   39.9
+Newyork   Zürih        Business   28.8.2019   21812   987   49.35
+Newyork   Amsterdam    Business   29.8.2019   12713   714   35.7
+Paris     Cape Town    Business   30.8.2019   21114   844   42.2
+Paris     Honk Kong    Business   1.9.2019    22338   799   39.95
+Paris     İstanbul     Business   2.9.2019    23786   767   38.35
+Paris     İsveç        Business   3.9.2019    21860   996   49.8
+Paris     Lille        Business   4.9.2019    21028   804   40.2
+Paris     Londra       Business   5.9.2019    18655   799   39.95
+Paris     Los Angele   Business   6.9.2019    19017   917   45.85
+Paris     Madrid       Business   7.9.2019    24656   942   47.1
+Paris     Moskova      Business   8.9.2019    14971   753   37.65
+Paris     Münih        Business   9.9.2019    17418   556   27.8
+Paris     Newyork      Business   10.9.2019   11944   593   29.65
+Paris     Pekin        Business   11.9.2019   23683   726   36.3
+Paris     Roma         Business   12.9.2019   21369   747   37.35
+Paris     Halep        Business   13.9.2019   21154   586   29.3
+Paris     Sydney       Business   14.9.2019   12182   902   45.1
+Paris     Tokyo        Business   15.9.2019   21329   583   29.15
+Paris     Zürih        Business   25.8.2019   24735   986   49.3
+Paris     Amsterdam    Business   26.8.2019   17405   967   48.35
+Paris     Antalya      Business   27.8.2019   12341   956   47.8
+Pekin     Honk Kong    Business   28.8.2019   12373   628   31.4
+Pekin     İstanbul     Business   29.8.2019   16313   721   36.05
+Pekin     İsveç        Business   30.8.2019   18473   629   31.45
+Pekin     Lille        Business   1.9.2019    21096   805   40.25
+Pekin     Londra       Business   2.9.2019    23414   789   39.45
+Pekin    Los Angele   Business   3.9.2019     23657   502   25.1
+Pekin    Madrid       Business   4.9.2019     16122   652   32.6
+Pekin    Moskova      Business   5.9.2019     18709   517   25.85
+Pekin    Münih        Business   6.9.2019     10709   891   44.55
+Pekin    Newyork      Business   7.9.2019     18812   927   46.35
+Pekin    Paris        Business   8.9.2019     16753   555   27.75
+Pekin    Roma         Business   9.9.2019     22417   994   49.7
+Pekin    Halep        Business   10.9.2019    14604   640   32
+Pekin    Sydney       Business   11.9.2019    24934   662   33.1
+Pekin    Tokyo        Business   12.9.2019    15963   669   33.45
+Pekin    Zürih        Business   13.9.2019    17971   536   26.8
+Pekin    Antalya      Business   14.9.2019    12646   793   39.65
+Pekin    Cape Town    Business   15.9.2019    22428   984   49.2
+Roma     İstanbul     Business   25.8.2019    14622   801   40.05
+Roma     İsveç        Business   26.8.2019    10980   920   46
+Roma     Lille        Business   27.8.2019    14789   690   34.5
+Roma     Londra       Business   28.8.2019    13013   595   29.75
+Roma     Los Angele   Business   29.8.2019    11717   647   32.35
+Roma     Madrid       Business   30.8.2019    17741   565   28.25
+Roma     Moskova      Business   1.9.2019     22702   509   25.45
+Roma     Münih        Business   2.9.2019     13582   859   42.95
+Roma     Newyork      Business   3.9.2019     22092   695   34.75
+Roma     Paris        Business   4.9.2019     24862   514   25.7
+Roma     Pekin        Business   5.9.2019     11177   651   32.55
+Roma     Halep        Business   6.9.2019     11206   506   25.3
+Roma     Sydney       Business   7.9.2019     20016   742   37.1
+Roma     Tokyo        Business   8.9.2019     20145   709   35.45
+Roma     Zürih        Business   9.9.2019     12950   502   25.1
+Roma     Antalya      Business   10.9.2019    11299   677   33.85
+Roma     Cape Town    Business   11.9.2019    22116   635   31.75
+Roma     Honk Kong    Business   12.9.2019    14016   549   27.45
+Halep    İsveç        Business   13.9.2019    13893   518   25.9
+Halep    Lille        Business   14.9.2019    12648   952   47.6
+Halep    Londra       Business   15.9.2019    20644   841   42.05
+Halep    Los Angele   Business   25.8.2019    11167   918   45.9
+Halep    Madrid       Business   26.8.2019    13551   600   30
+Halep    Moskova      Business   27.8.2019    20817   768   38.4
+Halep    Münih        Business   28.8.2019    20395   603   30.15
+Halep    Newyork      Business   29.8.2019    21051   760   38
+Halep    Paris        Business   30.8.2019    11353   534   26.7
+Halep    Pekin        Business   1.9.2019     15352   788   39.4
+Halep    Roma         Business   2.9.2019     24681   612   30.6
+Halep    Sydney       Business   3.9.2019     23448   900   45
+Halep    Tokyo        Business   4.9.2019     16479   994   49.7
+Halep    Zürih        Business   5.9.2019     16205   961   48.05
+Halep    Antalya      Business   6.9.2019     17795   909   45.45
+Halep    Cape Town    Business   7.9.2019     21487   602   30.1
+Halep    Honk Kong    Business   8.9.2019     24454   550   27.5
+Halep    İstanbul     Business   9.9.2019     15863   584   29.2
+Sydney   Lille        Business   10.9.2019    23217   570   28.5
+Sydney   Londra       Business   11.9.2019    19263   864   43.2
+Sydney   Los Angele   Business   12.9.2019    20868   999   49.95
+Sydney   Madrid       Business   13.9.2019    10884   732   36.6
+Sydney   Moskova      Business   14.9.2019    13476   669   33.45
+Sydney   Münih        Business   15.9.2019    19558   688   34.4
+Sydney   Newyork      Business   19.11.2019   12372   943   47.15
+Sydney   Paris        Business   20.11.2019   14791   941   47.05
+Sydney   Pekin        Business   21.11.2019   24118   502   25.1
+Sydney   Roma         Business   22.11.2019   19104   935   46.75
+Sydney   Halep        Business   23.11.2019   12151   571   28.55
+Sydney   Tokyo        Business   24.11.2019   23667   951   47.55
+Sydney   Zürih        Business   25.11.2019   15595   660   33
+Sydney   Antalya      Business   26.11.2019   24384   549   27.45
+Sydney   Cape Town    Business   27.11.2019   16507   874   43.7
+Sydney   Honk Kong    Business   28.11.2019   16224   767   38.35
+Sydney   İstanbul     Business   29.11.2019   13065   687   34.35
+Sydney   İsveç        Business   30.11.2019   20088   701   35.05
+Tokyo    Londra       Business   1.12.2019    15892   672   33.6
+Tokyo    Los Angele   Business   2.12.2019    21731   609   30.45
+Tokyo    Madrid       Business   3.12.2019    10188   803   40.15
+Tokyo    Moskova      Business   4.12.2019    15089   985   49.25
+Tokyo    Münih        Business   5.12.2019    17884   818   40.9
+Tokyo    Newyork      Business   6.12.2019    21777   694   34.7
+Tokyo    Paris        Business   7.12.2019    23859   994   49.7
+Tokyo    Pekin        Business   8.12.2019    17111   977   48.85
+Tokyo    Roma         Business   9.12.2019    10999   712   35.6
+Tokyo    Halep        Business   10.12.2019   15635   501   25.05
+Tokyo    Sydney       Business   19.11.2019   22574   665   33.25
+Tokyo    Zürih        Business   20.11.2019   22183   931   46.55
+Tokyo    Antalya      Business   21.11.2019   22027   892   44.6
+Tokyo    Cape Town    Business   22.11.2019   23808   941   47.05
+Tokyo    Honk Kong    Business   23.11.2019   11711   535   26.75
+Tokyo    İstanbul     Business   24.11.2019   23485   515   25.75
+Tokyo    İsveç        Business   25.11.2019   15723   934   46.7
+Tokyo    Lille        Business   26.11.2019   20284   501   25.05
+Zürih    Los Angele   Business   27.11.2019   19405   984   49.2
+Zürih    Madrid       Business   28.11.2019   21298   828   41.4
+Zürih    Moskova      Business   29.11.2019   19124   652   32.6
+Zürih    Münih        Business   30.11.2019   21040   557   27.85
+Zürih    Newyork      Business   1.12.2019    22010   725   36.25
+Zürih    Paris        Business   2.12.2019    21470   969   48.45
+Zürih    Pekin        Business   3.12.2019    18617   704   35.2
+Zürih    Roma         Business   4.12.2019    19470   662   33.1
+Zürih    Halep        Business   5.12.2019    18202   859   42.95
+Zürih    Sydney       Business   6.12.2019    14083   689   34.45
+Zürih    Tokyo        Business   7.12.2019    11011   658   32.9
+Zürih    Antalya      Business   8.12.2019    23616   596   29.8
+Zürih    Cape Town    Business   9.12.2019    10783   665   33.25
+Zürih    Honk Kong    Business   10.12.2019   16928   606   30.3
+Zürih    İstanbul     Business   19.11.2019   15374   817   40.85
+Zürih    İsveç        Business   20.11.2019   15382   514   25.7
+Zürih    Lille        Business   21.11.2019   24996   856   42.8
+Zürih    Londra       Business   22.11.2019   16032   596   29.8
+
